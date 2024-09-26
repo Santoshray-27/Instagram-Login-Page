@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instagram page</title>
+
+</head>
+
+<body>
+
+    <link href="design.css" rel="stylesheet">
+
+    <div id="aa">
+
+        <div id="log">
+            <div class="main">  <!-- main  box-->
+                <div class="bb">
+                    <img src="https://fontmeme.com/images/instagram-new-logo.png" alt="image not found">
+                </div>
+
+                <div class="cc">
+                    <input type="text" required placeholder="Phone number, username or email address" class="cc1" />
+
+
+                    <input type="password" required placeholder="Password" class="cc2" />
+
+                    <a href="log.html"><input type="button" value="Log in" class="btn" /></a> 
+                </div> <br>
+
+                <div class="or">
+                    <p>OR</p> <br>
+                </div>
+
+                <div class="fb">
+
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/300px-Facebook_icon_2013.svg.png?20161223201621"
+                            alt="not found">
+                        <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Den_US%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%25221ccmhta1v5qinkrajr8z1o1cta01tkflu81c8v8xk1baa3nhrhvsl%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D13ec2cb0-41b9-4ece-8440-8ef8ac4daf3d%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221ccmhta1v5qinkrajr8z1o1cta01tkflu81c8v8xk1baa3nhrhvsl%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=en_GB&pl_dbl=0">
+                            Log in with Facebook</a>
+                    </div>
+
+                </div>
+
+
+                <div class="for">
+                    <div>
+                        <a href="forgot.html"> <br>Forgot password?</a>
+                    </div>
+
+                </div>
+
+             <div class="main2">
+                <div class="gg">
+                   <span> Don't have an account? 
+                    <a href="singup.html">Sign up</a>
+                   </span>
+                </div>
+
+                <div class="app">
+                    <p>Get the app.</p>
+                     <div class="install">
+                         <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_IN"><img
+                                 src="A5.png" alt="not found" class="app1"></a>
+                         <a href="https://apps.microsoft.com/detail/9nblggh5l9xt?hl=en-US&gl=US"><img src="A6.png"
+                              alt="not found" class="app2"></a>
+                     </div>
+                 
+                </div>
+            </div>
+              
+
+
+
+                <div class="iphone">
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <img src="A2.png" alt="not found">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="A3.png" alt="not found">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="A4.png" alt="not found">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="A4.png" alt="not found">
+                        </div>
+
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+                </div>
+
+                 <script>
+                    let index = 0;
+                    slideshow();
+
+                    function slideshow() {
+                        let i;
+                        let s = document.getElementsByClassName("mySlides");
+                        let d = document.getElementsByClassName("dot");
+                        for (i = 0; i < s.length; i++) {
+                            s[i].style.display = "none";
+                        }
+                        index++;
+                        if (index == s.length) {
+                            index = 1
+                        }
+                        for (i = 0; i == d.length; i++) {
+                            d[i].className = d[i].className.replace(" active", "");
+
+                        }
+                        s[index - 1].style.display = "block";
+                        d[index - 1].className += " active";
+                        setTimeout(slideshow, 3000);
+
+                    }
+                </script>
+
+
+            </div> <!-- main -->
+
+        </div> <!-- log -->
+
+    </div> <!-- aa -->
+
+    <footer class="foot">
+        <div class="others">
+            <a href="https://about.meta.com/">Meta</a>
+            <a href="https://about.instagram.com/">About</a>
+            <a href="https://about.instagram.com/blog">Blog</a>
+            <a href="https://about.instagram.com/about-us/careers">Jobs</a>
+            <a href="https://help.instagram.com/">Help</a>
+            <a href="https://developers.facebook.com/docs/instagram-platform">API</a>
+            <a href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect">Privacy</a>
+            <a href="https://help.instagram.com/581066165581870/">Terms</a>
+            <a href="https://www.instagram.com/explore/locations/">Locations</a>
+            <a href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+            <a href="https://www.threads.net/">Threads</a>
+            <a href="https://www.facebook.com/help/instagram/261704639352628">Contact Uploading & Non-Users</a>
+            <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fmeta_verified%2F%3Fentrypoint%3Dweb_footer%26__coig_login%3D1">MetaVerified</a>
+
+          
+                <div class="lang"> 
+                    <select aria-label="Switch Display Language" class="selec">
+                    <option value="af">Afrikaans</option>
+                    <option value="ar">العربية</option>
+                    <option value="cs">Čeština</option>
+                    <option value="da">Dansk</option>
+                    <option value="de">Deutsch</option>
+                    <option value="el">Ελληνικά</option>
+                    <option value="en">English</option>
+                    <option value="en-gb">English (UK)</option>
+                    <option value="es">Español (España)</option>
+                    <option value="es-la">Español</option>
+                    <option value="fa">فارسی</option>
+                    <option value="fi">Suomi</option>
+                    <option value="fr">Français</option>
+                    <option value="he">עברית</option>
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="it">Italiano</option>
+                    <option value="ja">日本語</option>
+                    <option value="ko">한국어</option>
+                    <option value="ms">Bahasa Melayu</option>
+                    <option value="nb">Norsk</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="pl">Polski</option>
+                    <option value="pt-br">Português (Brasil)</option>
+                    <option value="pt">Português (Portugal)</option>
+                    <option value="ru">Русский</option>
+                    <option value="sv">Svenska</option>
+                    <option value="th">ภาษาไทย</option>
+                    <option value="tl">Filipino</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="zh-cn">中文(简体)</option>
+                    <option value="zh-tw">中文(台灣)</option>
+                    <option value="bn">বাংলা</option>
+                    <option value="gu">ગુજરાતી</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="hr">Hrvatski</option>
+                    <option value="hu">Magyar</option>
+                    <option value="kn">ಕನ್ನಡ</option>
+                    <option value="ml">മലയാളം</option>
+                    <option value="mr">मराठी</option>
+                    <option value="ne">नेपाली</option>
+                    <option value="pa">ਪੰਜਾਬੀ</option>
+                    <option value="si">සිංහල</option>
+                    <option value="sk">Slovenčina</option>
+                    <option value="ta">தமிழ்</option>
+                    <option value="te">తెలుగు</option>
+                    <option value="ur">اردو</option>
+                    <option value="vi">Tiếng Việt</option>
+                    <option value="zh-hk">中文(香港)</option>
+                    <option value="bg">Български</option>
+                    <option value="fr-ca">Français (Canada)</option>
+                    <option value="ro">Română</option>
+                    <option value="sr">Српски</option>
+                    <option value="uk">Українська</option>
+                  </select>
+                </div>
+           <br>
+            <span class="end">© 2024 Instagram from Meta</span>
+        </div>
+    </footer>
+</body>
+
+</html>
